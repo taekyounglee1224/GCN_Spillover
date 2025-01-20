@@ -29,7 +29,8 @@ Each models are tested for each of the 41 test periods from 2004 ~ 2024
 Each of the test periods are converted into a graph data for future embedding modeling.
 
 [Sample Image]
-![graph_test1](https://github.com/user-attachments/assets/5b716c6f-afa0-4bc7-8ab6-c68baafeee5e)
+![graph_test10](https://github.com/user-attachments/assets/26ef10cf-52d2-417b-8721-e9ce914c6d56)
+
 
 ### 4. Results
 The mean and the standard deviation of RMSE and RMAE were calculated for each model per each test period. The one - sided t-test was performed to observe if the grapb models (GCN, GAT) perform better than the benchmark ML models. The test was performed on three significant levels : 0.1, 0.05, 0.01
