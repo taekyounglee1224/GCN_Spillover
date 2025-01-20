@@ -29,7 +29,7 @@ Each of the test periods are converted into a graph data for future embedding mo
 ![graph_test1](https://github.com/user-attachments/assets/5b716c6f-afa0-4bc7-8ab6-c68baafeee5e)
 
 ### 4. Results
-The mean and the standard deviation of RMSE and RMAE were calculated for each model per each test period. The one - sided t-test was performed to observe if the grapb models (GCN, GAT) perform better than the benchmark ML models
+The mean and the standard deviation of RMSE and RMAE were calculated for each model per each test period. The one - sided t-test was performed to observe if the grapb models (GCN, GAT) perform better than the benchmark ML models. The test was performed on three significant levels : 0.1, 0.05, 0.01
 
 ![image](https://github.com/user-attachments/assets/ea5c052c-6f60-41a0-b82c-65454c1d06bf)
 
