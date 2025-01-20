@@ -31,6 +31,9 @@ Each of the test periods are converted into a graph data for future embedding mo
 ### 4. Results
 The mean and the standard deviation of RMSE and RMAE were calculated for each model per each test period. The one - sided t-test was performed to observe if the grapb models (GCN, GAT) perform better than the benchmark ML models
 
+![image](https://github.com/user-attachments/assets/ea5c052c-6f60-41a0-b82c-65454c1d06bf)
+
+
 ### 5. Env & Tools
 - VScode
 - Conda Env
