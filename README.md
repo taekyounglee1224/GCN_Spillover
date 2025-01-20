@@ -4,26 +4,27 @@
 This study investigates the feasibility of enhancing financial return predictions without incorporating additional external datasets by extracting latent information within the data itself. The analysis focuses on measuring spillover effects between global financial indices and explores advanced graph embedding methodologies such as Graph Convolutional Networks (GCNs) and Graph Attention Networks (GATs)
 
 ### 2. Methods
-A baseline model using tabular data from 25 global indices serves as a benchmark, where indices are used directly to predict one another. The predictive performance of these models is evaluated through repeated experiments (100 iterations) to calculate average RMSE and RMAE.
+A baseline regression model using tabular data from 25 global indices serves as a benchmark, where indices are used directly to predict one another. The predictive performance of these models is evaluated through repeated experiments (30 iterations) to calculate average RMSE and RMAE.
 
-The benchmark models are the following below
+The 5 benchmark models are the following below
 - Random Forest
 - Gradient Boost
 - Multi-Layer Perceptron
-- K-Nearest Neighbor
+- K-Nearest Neighbors
 - Support Vector Machine
 
 Each models are tested for each of the 41 test periods from 2004 ~ 2024
 [Test n : (Train, Test)]
-- Test 1 : (2004.01 ~ 06, 2004.07 ~ 12)
-- Test 2 : (2004.07 ~ 12, 2005.01 ~ 06)
+- Test 1 : (2004.01 ~ 2004.06, 2004.07 ~ 2004.12)
+- Test 2 : (2004.07 ~ 2005.12, 2005.01 ~ 2005.06)
   ...
   ...
   ...
-- Test 41 : (2024.01 ~ 06, 2024.07 ~ 12)
+- Test 41 : (2024.01 ~ 2024.06, 2024.07 ~ 2024.12)
 
 ### 3. Graph Data
 Each of the test periods are converted into a graph data for future embedding modeling.
+
 [Sample Image]
 ![graph_test1](https://github.com/user-attachments/assets/5b716c6f-afa0-4bc7-8ab6-c68baafeee5e)
 
